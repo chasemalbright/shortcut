@@ -1,0 +1,37 @@
+$ python3 sniffer.py 
+*******************Main Menu*******************
+1. Create and send packets
+2. Listen to all traffic and show all
+3. Listen to ping command to the address 8.8.4.4
+4. Listen to telnet command executed from localhost
+5. Quit
+***********************************************
+
+Choose a menu option: 2
+Listening to all traffic ...
+###[ Ethernet ]### 
+  dst       = 02:42:79:a9:87:7c
+  src       = 02:42:0a:09:00:05
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 46321
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = icmp
+     chksum    = 0x6b9a
+     src       = 10.9.0.5
+     dst       = 8.8.8.8
+     \options   \
+###[ ICMP ]### 
+        type      = echo-request
+        code      = 0
+        chksum    = 0x76cc
+        id        = 0x44
+        seq       = 0x1
+###[ Raw ]### 
+           load      = '\xe1\xdf\x88c\x00\x00\x00\x00J\xd8\r\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'

@@ -1,0 +1,15 @@
+$ python3 sniffer.py 
+*******************Main Menu*******************
+1. Create and send packets
+2. Listen to all traffic and show all
+3. Listen to ping command to the address 8.8.4.4
+4. Listen to telnet command executed from localhost
+5. Quit
+***********************************************
+
+Choose a menu option: 1
+Creating and sending packets ...
+How many packets? 4
+How many seconds in between? 2
+....
+Sent 4 packets.

@@ -1,0 +1,27 @@
+$ python3 sniffer.py 
+*******************Main Menu*******************
+1. Create and send packets
+2. Listen to all traffic and show all
+3. Listen to ping command to the address 8.8.4.4
+4. Listen to telnet command executed from localhost
+5. Quit
+***********************************************
+
+Choose a menu option: 3
+Listening to ping to 8.8.4.4 ...
+Source IP: 10.9.0.5
+Destination IP: 8.8.4.4
+Protocol: 1
+TTL: 64
+
+
+Source IP: 10.9.0.5
+Destination IP: 8.8.4.4
+Protocol: 1
+TTL: 64
+
+
+Source IP: 10.9.0.5
+Destination IP: 8.8.4.4
+Protocol: 1
+TTL: 64
